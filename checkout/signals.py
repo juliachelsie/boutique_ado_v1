@@ -19,4 +19,3 @@ def update_on_delete(sender, instance, **kwargs):
     """
     print('delete signal received!')
     instance.order.update_total()
-
