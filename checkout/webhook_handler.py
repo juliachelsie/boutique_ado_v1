@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-import Stripe
+import stripe
 
 
 class StripeWH_Handler:
